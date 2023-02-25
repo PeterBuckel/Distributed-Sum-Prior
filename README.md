@@ -3,6 +3,10 @@ Nighttime vision-based dust removal in agriculture.
 
 ##  Distributed Sum Prior
 
+In our work we introduced the Distributed Sum Prior (DSP):
+```math
+DSP_{\Omega_{i}}^{\lambda}=\underset{j\epsilon\Omega_{i}}{\sum}\:I_{j}^{\lambda}
+```
 
 Simply run `main.py` to start the application.
 
