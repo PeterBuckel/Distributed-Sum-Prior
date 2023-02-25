@@ -1,4 +1,4 @@
-# Distributed-Sum-Prior
+# Nighttime Dust Removal with the Distributed Sum Prior
 Dehazing with Distributed Sum Prior
 
 ##  Distributed Sum Prior
