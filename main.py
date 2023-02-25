@@ -122,7 +122,7 @@ def natural_keys(text):
 
 
 count = 0
-folder_with = "F:/DHBW/Projekte/Dust_removal/Papers/04_Night_dust_removal/nigth_results/with_small"
+folder_with = "Input Folder"
 frame = []
 for subdirw, dirsw, filesw in os.walk(folder_with):
     filesw.sort(key=natural_keys)
@@ -146,6 +146,6 @@ for file in filesw:
     t = TransmissionRefine(src, te)
     J = Recover(I, t, newA, 0.1)
     print(count)
-    cv2.imwrite('F:/DHBW/Projekte/Dust_removal/Papers/04_Night_dust_removal/nigth_results/Ours/img (' + str(count) + ').bmp',J*255)
+    cv2.imwrite('Output Folder/img (' + str(count) + ').png',J*255)
     count += 1
 
